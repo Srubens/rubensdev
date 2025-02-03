@@ -84,16 +84,18 @@ function CardHero() {
                   ref={textLeftRef}
                 className="relative w-4/5 m-auto @laptop:w-2/4 @laptop:mt0 @desktop:w-cardhero @desktop:mt-24 mt-10" >
                     <h5 className="text-xl mb-6 font-poppins" ><span className="text-gray-500" >Hi, I'm</span> Rubens Filipe 👋🏻</h5>
-                    <h1 className=" text-3xl @desktop:text-5xl font-bold @desktop:leading-[120%] mb-5" >
-                    Especialista
-                    <Image
-                        src={figureText}
-                        alt="figura com texto"
-                        className="object-cover w-24 h-14 px-4"
-                    />  em <br/>
-                    {text}
-                    <span className="animate-blink">|</span>
+                    <h1 className="text-3xl @desktop:text-5xl font-bold @desktop:leading-[120%] mb-5">
+                        Especialista <span className="inline-block align-middle">
+                            <Image
+                                src={figureText}
+                                alt="figura com texto"
+                                className="object-cover w-24 h-14 px-4"
+                            />
+                        </span> em <br />
+                        {text}
+                        <span className="animate-blink">|</span>
                     </h1>
+
                     <p className="text-lg mb-16 @laptop:w-90 @desktop:w-cardtext mt-7 @laptop:mt-0" >
                     Trabalho com projetos front-end, websites e aplicações web.
                     Em constante aprendizado desenvolvendo minhas habilidades para criar soluções eficientes.
