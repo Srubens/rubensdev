@@ -12,8 +12,12 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaSass } from "react-icons/fa";
 import { FaGulp } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
+import { useRef } from "react";
 
 function CardSlide() {
+
+    const sectionRef = useRef(null)
+
     const slide = [
         {
             title:'NFTBoost', 
@@ -101,7 +105,7 @@ function CardSlide() {
         },
     ]
     return (
-        <section className="card_slide p-2 bg-white @laptop:p-20">
+        <section className="card_slide p-2 bg-white @laptop:p-20" id="section-1" ref={sectionRef} >
             <ContainerGrid>
                 <TitleParagrap
                     title="Projetos"

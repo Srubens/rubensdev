@@ -1,7 +1,5 @@
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/section-hero/Header";
-import Footer from "@/components/section-hero/Footer";
 
 export const inter = Inter({
   subsets:["latin"],
@@ -27,9 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.variable} ${poppins.variable} antialiased`}
       >
-        <Header/>
         {children}
-        <Footer/>
       </body>
     </html>
   );

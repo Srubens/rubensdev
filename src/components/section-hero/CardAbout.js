@@ -14,6 +14,9 @@ import MiniTag from "../MiniTag";
 gsap.registerPlugin(ScrollTrigger)
 
 function CardAbount() {
+
+    const sectionRef = useRef(null)
+
     const tags = [
         {
             title:"Github",
@@ -38,8 +41,8 @@ function CardAbount() {
         scrollTrigger:{
             trigger:textLeft,
             // markers:true,
-            start:'-=40% center',
-            end:"60%",
+            start:'-=10% center',
+            end:"20%",
             scrub:true
         }
     })
@@ -61,7 +64,7 @@ function CardAbount() {
   },[])
 
     return (
-        <section className="about @laptop:p-20 bg-white" >
+        <section className="about @laptop:p-20 bg-white overflow-hidden" id="section-0" ref={sectionRef} >
             <ContainerGrid className="flex flex-col @tablet:flex-row @laptop:justify-between items-start @laptop:gap-20" >
                 <div
                   ref={textLeftRef}
@@ -82,7 +85,7 @@ function CardAbount() {
                 <div 
                   ref={textRightRef}
                 className="@laptop:w-cardabout mt-14 mb-6 font-semibold font-inter flex flex-col items-center @laptop:items-start @tablet:w-96 @tablet:items-start" >
-                    <h5 className="text-gray-900 text-xl sm:text-sm" >Hi, I'm Rubens Filipe 👋🏻</h5>
+                    <h5 className="text-gray-900 text-xl sm:text-sm" >Olá, meu nome é Rubens Filipe 👋🏻</h5>
                     <h3 className="text-gray-900 font-inter text-4xl font-bold mb-1 sm:text-2xl" >Rubens Filipe</h3>
                     <p className="text-gray-900 text-xl mb-10 sm:text-sm" >Desenvolvedor</p>
                     <p className="text-gray-600 text-xl font-inter mb-6 sm:text-sm" >Sou formado em Sistema de Informação e venho me desenvolvendo na area a longo deste tempo. Meus projetos na área de programação me fazem evoluir cada vez mais, e como consequência do amor pelo que faço, desenvolver se tornou meu hobby favorito.</p>

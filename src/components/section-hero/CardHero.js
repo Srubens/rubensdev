@@ -10,7 +10,8 @@ import gsap from "gsap";
 
 function CardHero() {
 
-    const url = "https://wa.me/5581985349872?text=Olá%20Rubens,%20eu%20gostaria%20de:%20"
+  const sectionRef = useRef(null)
+  const url = "https://wa.me/5581985349872?text=Olá%20Rubens,%20eu%20gostaria%20de:%20"
 
   const texts = ["Front-End", "Desenvolvimento", "Web Designer"];
   const [index, setIndex] = useState(0);
@@ -78,14 +79,14 @@ function CardHero() {
   },[])
 
     return (
-        <section className="card_hero p-4 text-center @laptop:p-20 @laptop:text-left ">
-            <ContainerGrid className="flex flex-col @laptop:justify-between @laptop:flex-row items-start" >
+        <section className="card_hero p-4 text-center @laptop:p-20 @laptop:text-left " id="section-2" ref={sectionRef} >
+            <ContainerGrid className="flex flex-col @laptop:justify-between @laptop:flex-row items-start -mt-28 @laptop:mt-0" >
                 <div 
                   ref={textLeftRef}
-                className="relative w-4/5 m-auto @laptop:w-2/4 @laptop:mt0 @desktop:w-cardhero @desktop:mt-24 mt-10" >
+                className="relative w-4/5 m-auto @laptop:w-2/4 @laptop:mt0 @desktop:w-cardhero @desktop:mt-24 " >
                     <h5 className="text-xl mb-6 font-poppins" ><span className="text-gray-500" >Hi, I'm</span> Rubens Filipe 👋🏻</h5>
                     <h1 className="text-3xl @desktop:text-5xl font-bold @desktop:leading-[120%] mb-5">
-                        Especialista <span className="inline-block align-middle">
+                        Profissional <span className="inline-block align-middle">
                             <Image
                                 src={figureText}
                                 alt="figura com texto"
