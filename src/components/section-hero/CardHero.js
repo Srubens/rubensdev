@@ -89,8 +89,8 @@ function CardHero() {
                     <Image
                         src={figureText}
                         alt="figura com texto"
-                        className="object-cover w-24 h-14 @laptop:mr-4"
-                    />
+                        className="object-cover w-24 h-14 "
+                    /> &nbsp;
                     em <br/> 
                     {text}
                     <span className="animate-blink">|</span>
