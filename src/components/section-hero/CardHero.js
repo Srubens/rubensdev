@@ -85,13 +85,12 @@ function CardHero() {
                 className="relative w-4/5 m-auto @laptop:w-2/4 @laptop:mt0 @desktop:w-cardhero @desktop:mt-24 mt-10" >
                     <h5 className="text-xl mb-6 font-poppins" ><span className="text-gray-500" >Hi, I'm</span> Rubens Filipe 👋🏻</h5>
                     <h1 className=" text-3xl @desktop:text-5xl font-bold @desktop:leading-[120%] mb-5" >
-                    Especialista &nbsp;
+                    Especialista
                     <Image
                         src={figureText}
                         alt="figura com texto"
-                        className="object-cover w-24 h-14 "
-                    /> &nbsp;
-                    em <br/> 
+                        className="object-cover w-24 h-14 px-4"
+                    />  em <br/>
                     {text}
                     <span className="animate-blink">|</span>
                     </h1>
