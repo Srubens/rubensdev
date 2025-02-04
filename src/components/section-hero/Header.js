@@ -7,9 +7,9 @@ import { Link } from "react-scroll";
 
 function Header({sectionRefs}) {
     const itensLink = [
+        'Inicio',
         'Quem sou',
         'Projetos',
-        'Contato',
     ]
 
     const scrollToSection = (index) => {

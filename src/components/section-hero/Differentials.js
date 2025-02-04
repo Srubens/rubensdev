@@ -49,7 +49,7 @@ function Differentials() {
             stagger: 0.3, // Anima os elementos um por um
             scrollTrigger: {
             trigger: ".cards",
-            start: "top-=80% center",
+            start: "top-=70% center",
             end:"15%",
             scrub: true,
             // markers: true,
@@ -60,7 +60,7 @@ function Differentials() {
     const tagsCards =[
         {
             title:'Presença Online',
-            subtitle:'Está sempre disponível, permitindo que clientes ou visitantes te encontrem a qualquer hora.',
+            subtitle:'Estar sempre disponível, permitindo que clientes ou visitantes te encontrem a qualquer hora.',
             component:TfiWorld,
         },
         {
@@ -80,7 +80,7 @@ function Differentials() {
         },
         {
             title:'Vantagem no Mercado',
-            subtitle:'Diferencie ao oferecer produtos e ou serviços que seja diferente dos demais, otimizado e profissional.',
+            subtitle:'Diferencie-se ao oferecer produtos e serviços que sejam diferentes dos demais, bem mais otimizado e profissional.',
             component:IoRocketOutline,
         },
         {
@@ -96,8 +96,8 @@ function Differentials() {
                 <div ref={textTitleRef} >
                     <TitleParagrap
                         
-                        title="Diferenciais para ter um protudo no digital">
-                        <p className="text-base text-gray-600" ><strong className="text-gray-900" >Transformando design</strong> em páginas para a web com agilidade, qualidade e <strong className="text-gray-900" >alta perfomance</strong>.</p>
+                        title="Diferenciais para ter um protudo digital">
+                        <p className="text-base text-gray-600" ><strong className="text-gray-900" >Transformando design</strong> em página para a web com agilidade, qualidade e <strong className="text-gray-900" >alta perfomance</strong>.</p>
                     </TitleParagrap>
                 </div>
             </ContainerGrid>

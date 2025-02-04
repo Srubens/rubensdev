@@ -15,7 +15,7 @@ function Footer() {
                 </div>
                 <div className="flex @laptop:justify-end text-center @laptop:text-left" >
                     <p className="text-sm" >
-                    Copyrith 2025 &copy; - Todos os direstos reservado.
+                    Copyrith 2025 &copy; - Todos os direitos reservado.
                     </p>
                 </div>
             </ContainerGrid>

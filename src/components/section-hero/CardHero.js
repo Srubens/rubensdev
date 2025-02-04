@@ -79,7 +79,7 @@ function CardHero() {
   },[])
 
     return (
-        <section className="card_hero p-4 text-center @laptop:p-20 @laptop:text-left " id="section-2" ref={sectionRef} >
+        <section className="card_hero p-4 text-center @laptop:p-20 @laptop:text-left " id="section-0" ref={sectionRef} >
             <ContainerGrid className="flex flex-col @laptop:justify-between @laptop:flex-row items-start -mt-28 @laptop:mt-0" >
                 <div 
                   ref={textLeftRef}
@@ -99,10 +99,10 @@ function CardHero() {
 
                     <p className="text-lg mb-16 @laptop:w-90 @desktop:w-cardtext mt-7 @laptop:mt-0" >
                     Trabalho com projetos front-end, websites e aplicações web.
-                    Em constante aprendizado desenvolvendo minhas habilidades para criar soluções eficientes.
+                    Em constante aprendizado, desenvolvendo minhas habilidades para criar soluções eficientes.
                     </p>
                     <div className="flex gap-4 items-center mb-8 justify-center @laptop:justify-start" >
-                        <Link href={url} target="_blank" className="underline underline-offset-4" >Comçar um projeto
+                        <Link href={url} target="_blank" className="underline underline-offset-4" >Começar um projeto
                         </Link>
                         <FaLongArrowAltRight
                             className="opacity-0 @laptop:opacity-100"

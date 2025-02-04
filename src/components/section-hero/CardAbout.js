@@ -42,7 +42,7 @@ function CardAbount() {
             trigger:textLeft,
             // markers:true,
             start:'-=10% center',
-            end:"20%",
+            end:"-=20%",
             scrub:true
         }
     })
@@ -64,7 +64,7 @@ function CardAbount() {
   },[])
 
     return (
-        <section className="about @laptop:p-20 bg-white overflow-hidden" id="section-0" ref={sectionRef} >
+        <section className="about @laptop:p-20 bg-white overflow-hidden" id="section-1" ref={sectionRef} >
             <ContainerGrid className="flex flex-col @tablet:flex-row @laptop:justify-between items-start @laptop:gap-20" >
                 <div
                   ref={textLeftRef}
@@ -88,7 +88,8 @@ function CardAbount() {
                     <h5 className="text-gray-900 text-xl sm:text-sm" >Olá, meu nome é Rubens Filipe 👋🏻</h5>
                     <h3 className="text-gray-900 font-inter text-4xl font-bold mb-1 sm:text-2xl" >Rubens Filipe</h3>
                     <p className="text-gray-900 text-xl mb-10 sm:text-sm" >Desenvolvedor</p>
-                    <p className="text-gray-600 text-xl font-inter mb-6 sm:text-sm" >Sou formado em Sistema de Informação e venho me desenvolvendo na area a longo deste tempo. Meus projetos na área de programação me fazem evoluir cada vez mais, e como consequência do amor pelo que faço, desenvolver se tornou meu hobby favorito.</p>
+                    <p className="text-gray-600 text-xl font-inter mb-6 sm:text-sm" >
+                    Sou formado em Sistema de Informação e venho me desenvolvendo na área ao longo dos anos. Meus projetos na área de programação me fazem evoluir cada vez mais, e como consequência do amor pelo que faço, desenvolver se tornou meu hobby favorito.</p>
                     <div className="flex flex-wrap gap-4" >
                         { tags.map(({title, icon},index)=>(
                             <Link href="#" target="_blank" className="text-gray-900 text-sm" key={index} >

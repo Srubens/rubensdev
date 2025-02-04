@@ -105,7 +105,7 @@ function CardSlide() {
         },
     ]
     return (
-        <section className="card_slide p-2 bg-white @laptop:p-20" id="section-1" ref={sectionRef} >
+        <section className="card_slide p-2 bg-white @laptop:p-20"  ref={sectionRef} >
             <ContainerGrid>
                 <TitleParagrap
                     title="Projetos"
@@ -116,7 +116,7 @@ function CardSlide() {
                 </div>
                 </TitleParagrap>
             </ContainerGrid>
-            <div className="mt-28" >
+            <div className="mt-28" id="section-2" >
                 <CarrouselCard
                     data={slide}
                 />
