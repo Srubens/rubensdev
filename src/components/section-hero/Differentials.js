@@ -96,7 +96,7 @@ function Differentials() {
                 <div ref={textTitleRef} >
                     <TitleParagrap
                         
-                        title="Diferenciais para ter um protudo digital">
+                        title="Diferenciais para ter um produto digital">
                         <p className="text-base text-gray-600" ><strong className="text-gray-900" >Transformando design</strong> em página para a web com agilidade, qualidade e <strong className="text-gray-900" >alta perfomance</strong>.</p>
                     </TitleParagrap>
                 </div>
