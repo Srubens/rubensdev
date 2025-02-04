@@ -61,7 +61,7 @@ function CarrouselCard({data}) {
             </Swiper>
             </ContainerGrid>
             <ContainerGrid>
-                <div className="mt-16 flex justify-end gap-6 opacity-0 @laptop:opacity-100" >
+                <div className="mt-10 flex justify-end gap-6 opacity-0 @laptop:opacity-100" >
                     <button 
                       onClick={(() =>swiperRef.current?.slidePrev())}
                     >

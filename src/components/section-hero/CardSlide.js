@@ -111,12 +111,14 @@ function CardSlide() {
                     title="Projetos"
 
                 >
-                <div className="flex items-center justify-center @laptop:justify-end">
+                <div className="flex items-center justify-center @laptop:justify-end"
+                id="section-2"
+                >
                     <p className="text-base text-gray-600" >2024-2025</p>
                 </div>
                 </TitleParagrap>
             </ContainerGrid>
-            <div className="mt-28" id="section-2" >
+            <div className="mt-28"  >
                 <CarrouselCard
                     data={slide}
                 />
