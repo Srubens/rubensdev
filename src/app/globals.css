@@ -6,6 +6,7 @@ body{
   background-color: #030E15;
   color:#fff;
   -webkit-font-smoothing:antialiased;
+  scroll-behavior: smooth;
 }
 
 img{

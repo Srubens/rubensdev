@@ -21,7 +21,9 @@ function Header({sectionRefs}) {
         <header className=" p-4 @tablet:p-2 bg-gray-900 @laptop:fixed @laptop:z-10 w-full" >
             <ContainerGrid className="flex flex-col items-center @laptop:flex-row @laptop:justify-between @laptop:items-center " >
                 <div>
-                    <Link href="/">
+                    <Link href="/"
+                    
+                    >
                         <Image
                             src={logo}
                             alt="logo"

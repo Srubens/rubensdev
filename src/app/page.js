@@ -17,8 +17,10 @@ function Home() {
       <CardHero/>
       <SlideTags/>
       <Differentials/>
-      <CardAbout sectionRef={sectionRefs[0]} />
-      <CardSlide/>
+      <CardAbout 
+        sectionRefs={sectionRefs[1]}
+      />
+      <CardSlide />
       <Footer/>
     </>
   );

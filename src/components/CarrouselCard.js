@@ -62,6 +62,7 @@ function CarrouselCard({data}) {
             </ContainerGrid>
             <ContainerGrid>
                 <div className="mt-10 flex justify-end gap-6 opacity-0 @laptop:opacity-100" >
+                    <p className="text-purple-primary" >Aperte nas setas ao lado, ou segure e arraste para um dos lados para ver o próximo projeto.</p>
                     <button 
                       onClick={(() =>swiperRef.current?.slidePrev())}
                     >

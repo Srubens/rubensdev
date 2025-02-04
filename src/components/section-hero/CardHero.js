@@ -13,7 +13,7 @@ function CardHero() {
   const sectionRef = useRef(null)
   const url = "https://wa.me/5581985349872?text=Olá%20Rubens,%20eu%20gostaria%20de:%20"
 
-  const texts = ["Front-End", "Desenvolvimento", "Web Designer"];
+  const texts = ["Front-End", "Web Designer"];
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [charIndex, setCharIndex] = useState(0);
