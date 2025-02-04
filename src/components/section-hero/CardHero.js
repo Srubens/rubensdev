@@ -98,7 +98,7 @@ function CardHero() {
                     </h1>
 
                     <p className="text-lg mb-16 @laptop:w-90 @desktop:w-cardtext mt-7 @laptop:mt-0" >
-                    Trabalho com projetos front-end, websites e aplicações web.
+                    Trabalho com projetos front-end, websites e aplicações web. <br />
                     Em constante aprendizado, desenvolvendo minhas habilidades para criar soluções eficientes.
                     </p>
                     <div className="flex gap-4 items-center mb-8 justify-center @laptop:justify-start" >
