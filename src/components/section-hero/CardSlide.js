@@ -37,7 +37,7 @@ function CardSlide() {
         },
         {
             title:'God of War', 
-            paragrafo:'Explore o mundo épico de God of War Ragnarök. Descubra a jornada de Kratos e Atreus. Projeto desenvovido com html, scss, gulp, javascript, aos.', 
+            paragrafo:'Explore o mundo épico de God of War Ragnarök. Descubra a jornada de Kratos e Atreus. Projeto desenvolvido com html, scss, gulp, javascript, aos.', 
             url:'https://srubens.github.io/godofwar-codeboost/',
             img:godofwar,
             tags:[
@@ -60,7 +60,7 @@ function CardSlide() {
             ]
         },
         {
-            title:'Blizzard', paragrafo:'Descubra os jogos épicos da Blizzard Entertainment, com novidades, atualizações e acesso aos seus títulos favoritos. Projeto desenvovido com html, scss, gulp, javascript, aos.', url:'https://srubens.github.io/blizzard-page/',
+            title:'Blizzard', paragrafo:'Descubra os jogos épicos da Blizzard Entertainment, com novidades, atualizações e acesso aos seus títulos favoritos. Projeto desenvolvido com html, scss, gulp, javascript, aos.', url:'https://srubens.github.io/blizzard-page/',
             img:blizzard,
             tags:[
                 {
@@ -82,7 +82,7 @@ function CardSlide() {
             ]
         },
         {
-            title:'BankBoost', paragrafo:'Descubra o seu potencial financeiro com o BankBoost  - Abra sua conta agora. Projeto desenvovido com html, scss, gulp, javascript, aos.', url:'https://srubens.github.io/bankboost/',
+            title:'BankBoost', paragrafo:'Descubra o seu potencial financeiro com o BankBoost  - Abra sua conta agora. Projeto desenvolvido com html, scss, gulp, javascript, aos.', url:'https://srubens.github.io/bankboost/',
             img:bankbookst,
             tags:[
                 {
