@@ -44,7 +44,7 @@ function CardAbount() {
             trigger:textLeft,
             // markers:true,
             start:'-=10% center',
-            end:"10%",
+            end:"+=8%",
             scrub:true
         }
     })

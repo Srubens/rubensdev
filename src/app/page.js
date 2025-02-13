@@ -20,7 +20,7 @@ function Home() {
       <CardAbout 
         sectionRefs={sectionRefs[1]}
       />
-      <CardSlide />
+      <CardSlide/>
       <Footer/>
     </>
   );

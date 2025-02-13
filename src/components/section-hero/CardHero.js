@@ -80,7 +80,7 @@ function CardHero() {
 
     return (
         <section className="card_hero p-4 text-center @laptop:p-20 @laptop:text-left " id="section-0" ref={sectionRef} >
-            <ContainerGrid className="flex flex-col @laptop:justify-between @laptop:flex-row items-start -mt-28 @laptop:mt-0" >
+            <ContainerGrid className="flex flex-col md:flex-row md:flex-row @laptop:justify-between @laptop:flex-row items-start -mt-28 @laptop:mt-0" >
                 <div 
                   ref={textLeftRef}
                 className="relative w-4/5 m-auto @laptop:w-2/4 @laptop:mt0 @desktop:w-cardhero @desktop:mt-24 " >
@@ -111,11 +111,11 @@ function CardHero() {
                 </div>
                 <div 
                   ref={textRightRef}
-                className="flex mx-auto @laptop:ml-8 @laptop:mx-0 @laptop:items-end" >
+                className="flex mx-auto @laptop:ml-8 @laptop:mx-0 @laptop:items-end @laptop:w-aboutImage" >
                     <Image
                         src={figure}
                         alt="figure"
-                        className="w-full object-cover"
+                        className="object-cover w-full @laptop:max-w-[32.5rem]"
                     />
                 </div>
             </ContainerGrid>

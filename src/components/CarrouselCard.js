@@ -10,8 +10,6 @@ import { useRef } from "react";
 
 import MiniTag from "./MiniTag";
 
-
-
 function CarrouselCard({data}) {
     const swiperRef = useRef()
 
